@@ -1,0 +1,92 @@
+.website-title
+{
+  background-color: beige;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+body
+{
+  background-image: linear-gradient(to bottom right, #FF8551, #FFDEDE); 
+}
+.full-container
+{
+  background-color: #9BCDD2;
+  height: 93vh;
+  border-radius: 5%;
+}
+.heading
+{
+  font-family: 'Pacifico', cursive;
+  background-color: azure;
+  font-size: 3rem;
+  text-align: center;
+  border-radius: 10%;
+}
+.dice1
+{
+  height: 50vh;
+}
+.dice2
+{
+  height: 50vh;
+}
+.button-bar
+{
+  height: 10vh;
+}
+.dice1-img-flex
+{
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 40vh;
+}
+.dice2-img-flex
+{
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 40vh;
+}
+.button-flex
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 9vh;
+  font-family: 'Pacifico', cursive;
+}
+.footer-flex
+{
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  height: 20vh;
+  font-family: 'Pacifico', cursive;
+}
+
+.shakeDice{
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
