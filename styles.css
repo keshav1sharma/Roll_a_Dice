@@ -25,36 +25,36 @@ body
 }
 .dice1
 {
-  height: 50vh;
+  height: 25rem;
 }
 .dice2
 {
-  height: 50vh;
+  height: 25rem;
 }
 .button-bar
 {
-  height: 10vh;
+  height: 2rem;
 }
 .dice1-img-flex
 {
   display: flex;
   justify-content: center;
   align-items: end;
-  height: 40vh;
+  height: 20rem;
 }
 .dice2-img-flex
 {
   display: flex;
   justify-content: center;
   align-items: end;
-  height: 40vh;
+  height: 20rem;
 }
 .button-flex
 {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 9vh;
+  height: 3rem;
   font-family: 'Pacifico', cursive;
 }
 .footer-flex
